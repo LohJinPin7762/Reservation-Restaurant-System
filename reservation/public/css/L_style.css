@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255),rgba(255, 255, 255));
+    background-position: left;
+    background-size: cover;
+    position: absolute;
+} */
+
+.form-box{
+    width: 780px;
+    height: 580px;
+    position: relative;
+    margin: 6% auto;
+    background: rgb(233, 192, 192);
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 2px 0 rgb(204, 206, 207);
+    /* border-radius: 1%; */
+
+}
+
+.button-box{
+    width: 420px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 15px rgb(92, 90, 90);
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    /* background: linear-gradient(to right,#f8f8f8); */
+    background:#f8f8f8;
+    border-radius: 40px;
+    transition: .5s;
+}
+
+/* .social-icons{
+    margin: 30px auto;
+    text-align: center;
+}
+
+.social-icons img{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 10px 0 #9e6363;
+    cursor: pointer;
+    border-radius: 50%;
+} */
+
+.input-group{
+    top: 150px;
+    position: absolute;
+    width: 380px;
+    transition: .90s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 56;
+    margin: 2px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 9px solid rgb(255, 255, 255);
+    outline: blue;
+    background: black;
+    color: azure;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#6d4040,#8b7c5d);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+
+span{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#login{
+    left: 50px;
+}
+
+#register{
+    left: 450px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
